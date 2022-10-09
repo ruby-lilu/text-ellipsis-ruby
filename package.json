@@ -4,7 +4,7 @@
   "description": "a text-ellipsis plugin",
   "main": "bundle.js",
   "scripts": {
-    "build": "NODE_ENV=production rollup -c",
+    "build": "cross-env NODE_ENV=production rollup -c",
     "dev": "rollup -c -w",
     "test": "node test/test.js"
   },
@@ -15,6 +15,7 @@
     "url": "git+https://gitee.com/rubyLi/text-ellipsis-ruby.git"
   },
   "devDependencies": {
+    "cross-env": "^7.0.3",
     "rollup-plugin-babel": "^4.4.0",
     "rollup-plugin-commonjs": "^10.1.0",
     "rollup-plugin-node-resolve": "^5.2.0",

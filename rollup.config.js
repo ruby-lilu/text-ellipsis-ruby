@@ -7,11 +7,10 @@ const isDev = process.env.NODE_ENV !== "production";
 export default [
   {
     input: "src/main.js",
-    output: [
-      { file: pkg.main, format: "cjs" },
-      { file: pkg.module, format: "es" },
-      { file: pkg.module, format: "umd" },
-    ],
+    output: {
+      file: "bundle.js",
+      format: "cjs",
+    },
     plugins: [
       resolve(), // 这样 Rollup 能找到 `ms`
       commonjs(), // 这样 Rollup 能转换 `ms` 为一个ES模块
