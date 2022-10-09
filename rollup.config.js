@@ -8,8 +8,9 @@ export default [
   {
     input: "src/main.js",
     output: {
+      name: "textEllipsis",
       file: "bundle.js",
-      format: "cjs",
+      format: "umd",
     },
     plugins: [
       resolve(), // 这样 Rollup 能找到 `ms`
