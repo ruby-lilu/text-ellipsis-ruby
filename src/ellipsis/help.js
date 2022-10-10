@@ -20,11 +20,11 @@ const getSpliceIndex = (font = {}, span, str) => {
     let len1 = getLengthByDom(span, Object.assign({ value: newStr }, font)),
       len2 = getLengthByDom(span, Object.assign({ value: font.left }, font));
     if (len1 > len2) {
-      index = i;
+      index = i - 1;
       break;
     }
   }
-  return index - 1;
+  return index;
 };
 
 export default (font = {}, span) => {
