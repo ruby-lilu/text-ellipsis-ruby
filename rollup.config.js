@@ -1,5 +1,5 @@
-import resolve from "rollup-plugin-node-resolve"; // 帮助寻找node_modules里的包
-import commonjs from "rollup-plugin-commonjs"; // 将非ES6语法的包转为ES6可用
+import resolve from "@rollup/plugin-node-resolve"; // 帮助寻找node_modules里的包
+import commonjs from "@rollup/plugin-commonjs"; // 将非ES6语法的包转为ES6可用
 import babel from "rollup-plugin-babel"; // rollup 的 babel 插件，ES6转ES5
 import { terser } from "rollup-plugin-terser";
 const isDev = process.env.NODE_ENV !== "production";
