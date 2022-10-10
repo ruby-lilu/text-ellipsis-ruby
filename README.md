@@ -1,6 +1,6 @@
 # text-ellipsis-ruby
 
-a text-ellipsis plugin with common js use.
+处理单行或多行文本过长时省略号显示
 
 ## Install
 
