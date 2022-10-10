@@ -1,6 +1,6 @@
 {
   "name": "text-ellipsis-ruby",
-  "version": "1.0.10",
+  "version": "1.0.11",
   "description": "a text-ellipsis plugin",
   "main": "bundle.js",
   "scripts": {
