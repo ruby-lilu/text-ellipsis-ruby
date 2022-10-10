@@ -8,10 +8,6 @@ a text-ellipsis plugin with common js use.
 npm install --save-dev text-ellipsis-ruby
 ```
 
-## Git
-
-[text-ellipsis-ruby](https://gitee.com/rubyLi/text-ellipsis-ruby.git)
-
 ## Usage
 
 ```js

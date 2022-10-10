@@ -12,8 +12,9 @@
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "git+https://gitee.com/rubyLi/text-ellipsis-ruby.git"
+    "url": "https://gitee.com/rubyLi/text-ellipsis-ruby.git"
   },
+  "homepage": "https://gitee.com/rubyLi/text-ellipsis-ruby.git",
   "devDependencies": {
     "cross-env": "^7.0.3",
     "rollup-plugin-babel": "^4.4.0",
