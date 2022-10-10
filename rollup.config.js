@@ -8,7 +8,7 @@ export default [
   {
     input: "src/main.js",
     output: {
-      name: "textEllipsis",
+      name: "textEllipsisRuby",
       file: "bundle.js",
       format: "umd",
     },
