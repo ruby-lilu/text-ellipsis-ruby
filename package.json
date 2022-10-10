@@ -4,7 +4,7 @@
   "description": "a text-ellipsis plugin",
   "main": "./lib/bundle.js",
   "scripts": {
-    "build": "rollup -c rollup.config.build.js",
+    "build": "rollup -c rollup.config.pro.js",
     "dev": "rollup -c rollup.config.dev.js",
     "test": "node test/test.js"
   },
