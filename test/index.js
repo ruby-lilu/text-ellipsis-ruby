@@ -1,4 +1,4 @@
-import ellipsis from "./bundle-dev.js";
+import { ellipsis } from "../src/main.js";
 
 ellipsis.config({
   lineNum: 1,

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>test</title>
+  </head>
+  <body>
+    <div class="par">
+      <h3>两行显示省略号</h3>
+      <div
+        class="ell oneText"
+        lineNum="2"
+        fontSize="16px"
+        text="这是一句很长很长的话，到底有多长呢 自己感受一下 够长了吧 还没感受到？那再感受下这是一句很长很长的话，到底有多长呢 自己感受一下 够长了吧 还没感受111到底有多长呢 自己感受一下 够长了吧 还没感受到？那再感受下这是一句很长很长的话，到底有多长呢 自己感受一下 够长了吧 还没感受111到底有多长呢 自己感受一下 够长了吧 还没感受到？那再感受下这是一句很长很长的话，到底有多长呢 自己感受一下 够长了吧 还没感受111"
+      ></div>
+      <h3>一行显示省略号，文字居左</h3>
+      <div
+        class="ell"
+        lineNum="1"
+        fontSize="16px"
+        text="这是一句很长很长的话，到底有多长呢这是一句很长很长的话，到底有多长呢这是一句很长很长的话，到底有多长呢这是一句很长很长的话，到底有多长呢 "
+      ></div>
+      <h3>一行显示省略号，文字居右（text-align: right）</h3>
+      <div
+        style="text-align: right"
+        fontSize="16px"
+        class="ell"
+        lineNum="1"
+        text="这是一句很长很长的话，到底有多长呢这是一句很长很长的话，到底有多长呢这是一句很长很长的话"
+      ></div>
+    </div>
+  </body>
+  <style lang="scss">
+    .par {
+      width: 300px;
+    }
+  </style>
+</html>
