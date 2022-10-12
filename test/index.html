@@ -30,11 +30,27 @@
         lineNum="1"
         text="这是一句很长很长的话，到底有多长呢这是一句很长很长的话，到底有多长呢这是一句很长很长的话"
       ></div>
+      <h3>一行显示省略号，文字居右(js工具)</h3>
+      <div class="test-dom">
+        <span class="text-dom">{{ realValue }}</span>
+        <div class="icon"></div>
+      </div>
     </div>
   </body>
   <style lang="scss">
     .par {
       width: 300px;
+    }
+    .test-dom {
+      display: flex;
+    }
+    .text-dom {
+      text-align: right;
+    }
+    .icon {
+      width: 20px;
+      height: 20px;
+      background-color: pink;
     }
   </style>
 </html>

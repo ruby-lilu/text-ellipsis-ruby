@@ -57,3 +57,29 @@ You can add config when `ellipsis.config` to set global-config or use the attrib
 | config | Object: obj                        | Update the global config.                                      |
 | init   | NodeList: doms \| HTMLElement: dom | Init the ellipsis dom by the config global and attribute both. |
 | watch  | NodeList: doms \| HTMLElement: dom | init the ellipsis dom and watch the change of attribute.       |
+
+## 2022/10/12 新增: 根据字符长度截取显示省略号的 js 工具方法
+
+下面是一个简单的在 vue2 中使用例子
+
+```vue
+<template>
+  <div style="text-align: right;">{{ realStr }}</div>
+</template>
+<script>
+import { setTextElipsis } from "text-ellipsis-ruby";
+export default {
+  data() {
+    return {
+      str: "这是一句很长很长的话，到底有多长呢这是一句很长很长的话，到底有多长呢这是一句很长很长的话",
+      realStr: "",
+    };
+  },
+  mounted() {
+    this.realStr = setTextElipsis(this.str, 6);
+  },
+};
+</script>
+```
+
+谢谢你的使用~
