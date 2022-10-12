@@ -1,2 +1,3 @@
 import ellipsis from "./ellipsis/index.js";
-export { ellipsis };
+import setTextElipsis from "./setTextElipsis.js";
+export { ellipsis, setTextElipsis };
