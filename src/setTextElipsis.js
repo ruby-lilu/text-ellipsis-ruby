@@ -17,6 +17,7 @@ const setTextElipsis = (str, lenNum) => {
       newStr += str[i];
     } else {
       newStr += "...";
+      break;
     }
   }
   return newStr;
