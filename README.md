@@ -58,7 +58,16 @@ You can add config when `ellipsis.config` to set global-config or use the attrib
 | init   | NodeList: doms \| HTMLElement: dom | Init the ellipsis dom by the config global and attribute both. |
 | watch  | NodeList: doms \| HTMLElement: dom | init the ellipsis dom and watch the change of attribute.       |
 
-## 2022/10/12 新增: 根据字符长度截取显示省略号的 js 工具方法
+# 2022/10/12 新增:
+
+### 根据字符长度截取显示省略号的 js 工具方法
+
+## 参数
+
+| 参数名 | 意义                         | 类型   | 默认值 |
+| ------ | ---------------------------- | ------ | ------ |
+| str    | 需要截取的字符串             | Str    | -      |
+| lenNum | 指定字符长度(中文算两个字符) | Number | -      |
 
 下面是一个简单的在 vue2 中使用例子
 
