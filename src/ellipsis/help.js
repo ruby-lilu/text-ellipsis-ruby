@@ -7,6 +7,7 @@
 //     return ctx.measureText(font.value).width;
 // };
 
+// 计算dom宽度
 const getLengthByDom = (span, font = {}) => {
   span.innerText = font.value;
   // 因为offsetWidth存在四舍五入 降低精度
