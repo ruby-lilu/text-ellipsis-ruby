@@ -6,7 +6,7 @@
   "scripts": {
     "build": "rollup -c build/rollup.config.build.js",
     "dev": "rollup -c build/rollup.config.dev.js --watch",
-    "test": "webpack serve --config build/webpack.config.js --hot --progress"
+    "dev:test": "webpack serve --config build/webpack.config.js --hot --progress"
   },
   "author": "rubyLi",
   "license": "ISC",

@@ -67,6 +67,8 @@ You can add config when `ellipsis.config` to set global-config or use the attrib
 | str    | 需要截取的字符串             | Str    | -      |
 | lenNum | 指定字符长度(中文算两个字符) | Number | -      |
 
+---
+
 下面是一个简单的在 vue2 中使用例子:
 
 ```vue
